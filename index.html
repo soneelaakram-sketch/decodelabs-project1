@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DecodeLabs – Project 1 | Static Webpage Design</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <p class="logo">Decode<span>Labs</span></p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#checklist">Checklist</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="badge">Batch 2026 &middot; DecodeLabs Frontend Intern</p>
+          <h1>Static Webpage<br/><span class="accent">Design</span></h1>
+          <p class="hero-desc">
+            Project 1 of the DecodeLabs Industrial Training Kit — building
+            a clean, structured webpage using semantic HTML and external CSS.
+          </p>
+          <a href="#skills" class="btn-primary">View Skills</a>
+        </div>
+        <div class="hero-img">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=460&fit=crop"
+            alt="Code editor displaying HTML and CSS on a laptop screen"
+            width="600"
+            height="460"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&h=500&fit=crop"
+            alt="Students collaborating on a project at a desk"
+            width="500"
+            height="500"
+          />
+        </div>
+        <div class="about-text">
+          <h2>About This Project</h2>
+          <p>
+            This project is centered around <strong>Semantic Integrity</strong> —
+            mastering the core relationship between content and style before
+            moving into dynamic, data-driven development.
+          </p>
+          <p>
+            The goal is to craft a clean, readable layout using only pure HTML
+            markup and CSS styling logic — no frameworks, no shortcuts.
+          </p>
+          <ul class="about-list">
+            <li>&#10003; Semantic HTML5 tags used throughout</li>
+            <li>&#10003; Single h1 per page rule followed</li>
+            <li>&#10003; No inline styles — external CSS only</li>
+            <li>&#10003; CSS Grid for layout, Flexbox for components</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Key Skills</h2>
+        <p class="section-sub">Core concepts practiced in Project 1</p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">&#128736;</span>
+            <h3>Information Architecture</h3>
+            <p>Planning the sitemap and content hierarchy before writing a single line of code.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">&#128196;</span>
+            <h3>Semantic HTML</h3>
+            <p>Using header, main, footer, nav, article and aside for machine-readable structure.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">&#127912;</span>
+            <h3>CSS Engineering</h3>
+            <p>Separation of concerns — HTML handles structure, CSS handles appearance only.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">&#128208;</span>
+            <h3>Layout Systems</h3>
+            <p>CSS Grid for macro page structure. Flexbox for micro component alignment.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">&#9851;</span>
+            <h3>DRY Principle</h3>
+            <p>Define a class once, reuse it everywhere. No duplicated style declarations.</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">&#9855;</span>
+            <h3>Accessibility (A11Y)</h3>
+            <p>Alt text on every image, proper heading hierarchy, 4.5:1 contrast ratio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="checklist-section" id="checklist">
+      <div class="container">
+        <h2 class="section-title">Flight Checklist</h2>
+        <p class="section-sub">Verify every item before submitting your project</p>
+
+        <div class="check-grid">
+          <div class="check-item">
+            <span class="check-num">01</span>
+            <h3>IA</h3>
+            <p>Logical sitemap defined before any code is written.</p>
+          </div>
+          <div class="check-item">
+            <span class="check-num">02</span>
+            <h3>HTML</h3>
+            <p>Semantic landmark tags used. One h1 per page only.</p>
+          </div>
+          <div class="check-item">
+            <span class="check-num">03</span>
+            <h3>CSS</h3>
+            <p>External stylesheet only. No inline styles. DRY principle applied.</p>
+          </div>
+          <div class="check-item">
+            <span class="check-num">04</span>
+            <h3>Layout</h3>
+            <p>Grid for page structure. Flexbox for component-level alignment.</p>
+          </div>
+          <div class="check-item">
+            <span class="check-num">05</span>
+            <h3>Assets</h3>
+            <p>All images have explicit width, height, and descriptive alt text.</p>
+          </div>
+          <div class="check-item">
+            <span class="check-num">06</span>
+            <h3>Validation</h3>
+            <p>Passes W3C HTML Validator with zero errors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="logo">Decode<span>Labs</span></p>
+        <p>Industrial Training Kit &middot; Batch 2026</p>
+      </div>
+      <address class="footer-contact">
+        <p>&#128222; +91 89330 06408</p>
+        <p>&#9993; decodelabs.tech@gmail.com</p>
+        <p>&#127759; www.decodelabs.tech</p>
+        <p>&#128205; Greater Lucknow, India</p>
+      </address>
+    </div>
+    <p class="footer-copy">&copy; 2026 DecodeLabs. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
